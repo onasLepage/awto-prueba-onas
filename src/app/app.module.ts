@@ -4,10 +4,10 @@ import { RouterModule } from '@angular/router';
 import { HttpClientModule } from '@angular/common/http';
 
 
-//services
+// services
 import { BolsaService } from './services/bolsas.service';
 
-//components
+// components
 import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
