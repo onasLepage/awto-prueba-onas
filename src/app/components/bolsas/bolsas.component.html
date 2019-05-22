@@ -1,0 +1,15 @@
+<div class="row">
+    <div class="col-lg-4 col-md-6 col-sm-12 mb-4" *ngFor="let bolsa of bolsas">
+        <div class="card">
+            <div class="card-body card-bg-img">
+                <img class="align-self-center" src="assets/img/coin-awto.png" srcset="assets/img/coin-awto@2x.png 2x, assets/img/coin-awto@3x.png 3x" class="coin-awto">
+                <p class="title-card-coin">carga ${{bolsa.charge}} </p>
+                <p class="subtitle-card-coin">y te regalamos en uso</p>
+                <p class="card-pesos-reward">$</p>
+                <p class="card-text-reward">{{bolsa.reward}}</p>
+                <br>
+                <a href="#" class="btn btn-buy btn-lg btn-block">Comprar</a>
+            </div>
+        </div>
+    </div>
+</div>
